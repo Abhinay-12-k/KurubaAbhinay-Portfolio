@@ -3,9 +3,9 @@ import { motion, useInView } from 'framer-motion';
 import { Trophy, Medal, Award, Zap } from 'lucide-react';
 
 const hackathons = [
-  { name:'AIX Anantapur Police Hackathon', achievement:'Round 1 Winner', position:'1st in Round', project:'Multilingual FIR Generator', category:'AI for Public Safety', subtitle:'with IncuX AI', icon:Trophy, accentFrom:'#F5A623', accentTo:'#E8890C', isWinner:true, number:'01' },
+  { name:'AIX Anantapur Police Hackathon (National Level)', achievement:'Round 1 Winner', position:'1st in Round', project:'Multilingual FIR Generator', category:'AI for Public Safety', subtitle:'with IncuX AI', icon:Trophy, accentFrom:'#F5A623', accentTo:'#E8890C', isWinner:true, number:'01' },
   { name:'Tech Clash Hackathon 2K26',      achievement:'Runner-up',       position:'2nd Place',   project:'Citizen Grievance Management Portal', category:'Open Innovation',  icon:Medal,  accentFrom:'#5C27FE', accentTo:'#7B2FBE', number:'02' },
-  { name:'Cynosure Hackathon',             achievement:'Top 5 Teams',     position:'Top 5',       project:'CitizenCare AI',                     category:'Smart Governance', subtitle:'SVU University', icon:Award, accentFrom:'#00C9B1', accentTo:'#0891b2', number:'03' },
+  { name:'Cynosure Hackathon (National Level)',             achievement:'Top 5 Teams',     position:'Top 5',       project:'CitizenCare AI',                     category:'Smart Governance', subtitle:'SVU University', icon:Award, accentFrom:'#00C9B1', accentTo:'#0891b2', number:'03' },
 ];
 
 function HackEntry({ h, index, isLast }) {
